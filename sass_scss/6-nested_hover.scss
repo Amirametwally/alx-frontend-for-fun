@@ -1,11 +1,10 @@
-// 6-nested_hover.scss
-// Assigns text color #FF0000 to button tags
-// Changes text color to #00FF00 on hover using nested declarations
+/* Nested hover
+change button color on hover */
 
 button {
-    color: #FF0000; // Default button text color
+    color: #FF0000;
 
     &:hover {
-        color: #00FF00; // Button text color on hover
+        color: #00FF00;
     }
 }
